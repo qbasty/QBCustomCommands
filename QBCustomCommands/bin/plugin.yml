@@ -1,0 +1,6 @@
+main: QBCustomCommands.Main
+name: QBCustomCommands
+version: 1.0.0
+author: Tzu1
+api-version: 1.13
+

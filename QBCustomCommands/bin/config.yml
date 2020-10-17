@@ -1,0 +1,35 @@
+# QBCustomCommands - 1.0.0
+#
+# To format text use the &* where * is a custom value
+#
+# Change color:
+#	0 - Black			1 - Dark Blue
+#	2 - Dark Green		3 - Dark Aqua
+#	4 - Dark Red		5 - Dark Purple
+#	6 - Gold			7 - Gray
+#	8 - Dark Gray		9 - Blue
+#	a - Green			b - Aqua
+#	c - Red				d - Light Purple
+#	e - Yellow			f - White
+#
+# Change format:
+#	k - Magic			l - Bold
+#	m - Strike			n - Underline
+#	o - Italic			r - Reset
+
+
+QBCustomCommands:
+  test1:
+   - '&ltest1.1'
+   - '&ktest1.1'
+   - '&mtest1.1'
+  test2:
+   - '&1test2.1'
+   - '&2test2.2'
+   - '&3test2.3'
+  test3:
+   - 'X%player_x%X'
+   - 'Y%player_y%Y'
+   - 'Z%player_z%Z'
+   - 'S%server_name%S'
+
